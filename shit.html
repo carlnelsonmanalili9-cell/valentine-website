@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Valentine Surprise</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #a11076);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 150px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 20px;
+            background-color: #e60073;
+            color: white;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #cc0066;
+            transform: scale(1.1);
+        }
+
+        .letter {
+            display: none;
+            background: white;
+            width: 60%;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            color: #e60073;
+        }
+
+        p {
+            font-size: 18px;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="showLetter()">Click Me ❤️</button>
+
+    <div class="letter" id="valentineLetter">
+        <h1>Happy Valentine's Day!</h1>
+        <p>
+            Shanie <br><br>
+            Happy Valentines Shanie! 
+            Ahmm gumawa ako nitong website nato kasi gusto kita batiin ng happy valentines, nalulungkot kasi ako pag ganitong mga holidays tas hindi na tayo nagkakausap. Kung nakakausap lang kita ng maayos or kung pwede lang kita kausapin gagawin ko pero syempre gusto kodin naman i respect yung decision mo na kailangan mo lumayo sakin, eh kaso kasi makulit ako talaga e hindi kodin kasi mapigilan yung sarili ko na hindi ka chat or kahit anong gawin para makausap ka or makuha attention mo. Alam mo namang attention seeker ako pagdating sayo actually parehas naman tayo. Ahm matagal nadin simula nung naghiwalay tayo pero maniwala ka man sa hindi simula non wala akong tulog na maayos lagi kitang naiisip kamusta kana, anong ginagawa mo, gigil na gigil ako magchat sayo kung alam molang, pero nagpipigil ako hanggat kaya ko pero pag nagchat ako sayo ibig sabihin non nademonyo na kamay ko, gusto kolang sabihin din sayo na sana pwede pa natin i try, kasi alam ko naman na naging better ako sa sarili ko alam kodin na mas magagawa kona ng tama yung duty ko as a boyfriend sayo madami akong natutunan madami akong narinig na kwentong pagkakamali lahat napagaralan ko, napagtanto kona, nilevel up lang pala ako ni Lord mas pinatibay kahit papano mas pinalakas at lalong lalo pinasabay nyako sa flow pinamatured kumbaga, syempre alam ko naman na nauuna nagmamatured ang babae kaya mejo syempre mejo hirap ka sakin pero sana, ma try padin natin ulit. Kung sa libro tayo alam na natin yung ending maiiwas natin sya don madami tayong na figure out ngayong nag separate tayong dalawa. Sana yung mga natutunan natin sa paghihiwalay natin is magampanan natin ng maayos. Hindi pa sobrang tagal ng paghihiwalay natin pero gusto konang ayusin natin sana kung pwede. Ayokong mawala ka sakin pinanghahawakan ko lahat ng natutunan kong aral na dumating sa buhay ko syempre tao lang din naman ako nagkakamali, pero gagawin kong itama ang mga mali ko nayon sana love please?
+            Can we start again? Not totally start at the beginning pero ibahin natin yung ending ng love story natin papuntang end game. Gusto kopa bumili ng bahay, car, at travel with u. Even though namay gusto tayong ma achieve ng solo supportahan lang tayo sa isa’t isa balik kana sakin please susupportahan kita sa kahit anong bagay na makakapagpasaya sayo kasi masaya din ako pag masaya ka, this time i will make sure na kahit ikaw na nonchalant sakin magkakaron tayo ng communication is the key para hindi na maulit yung mga pangit na bagay na nagyari satin, kaya sana love please.
+            Lets TRY AGAIN! Happy Valentines My Love.
+        </p>
+    </div>
+
+    <script>
+        function showLetter() {
+            document.getElementById("valentineLetter").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
